@@ -22,9 +22,9 @@ pipeline {
             }
         }
         stage('Test'){
-            step{
+            steps{
                 echo "completed"
-    }
-}
+            }
+        }
     }
 }
